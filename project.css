@@ -1,0 +1,121 @@
+/* css of all pages */
+body
+{
+	font-family: Arial;
+    background-image: url("Picture2.png");
+    color:#333333;
+	 margin: 0;
+}
+
+header {
+  background-color: #cccccc;
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color:#cccccc;
+  padding: 20px;
+  text-align: center; 
+}
+
+* {
+  box-sizing: border-box;
+}
+/* Style bar */
+.topnav {
+  overflow: hidden;
+background-color: #808080;}
+
+/* Style links */
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* css home */
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.rightcolumn {   
+  float: right;
+  width: 75%;
+}
+
+/* Right column */
+.leftcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f2f2f2;
+  padding-left: 30px;
+}
+
+
+.fakeimg {
+  background-color: #cccccc;
+  width: 80%;
+  padding: 15px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+img{
+	 border-radius: 8px;
+}
+
+/* css page 1 */
+table {
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+}
+th{
+	 background-color:White;
+}
+td,th {
+  text-align:center;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #a3a3c2;
+}
+tr:hover{
+ background-color:#ffffcc;
+}
+
+
+/* css page 2 */
+
+#id1{
+  border: 2px solid #4d4d4d ;
+  width: 20%;
+}
+
